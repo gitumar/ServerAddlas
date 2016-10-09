@@ -1,0 +1,160 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".MainActivity"
+    android:minHeight="200dp"
+    android:minWidth="200dp">
+
+    <!-- Side navigation drawer UI -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/scrollView" >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ToggleButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New ToggleButton"
+                            android:id="@+id/toggleButton"
+                            android:minHeight="200dp"
+                            android:minWidth="200dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp" />
+
+                        <ToggleButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New ToggleButton"
+                            android:id="@+id/toggleButton2"
+                            android:minHeight="200dp"
+                            android:minWidth="200dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp" />
+
+                        <ToggleButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New ToggleButton"
+                            android:id="@+id/toggleButton3"
+                            android:minHeight="200dp"
+                            android:minWidth="200dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp" />
+
+                        <ToggleButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New ToggleButton"
+                            android:id="@+id/toggleButton4"
+                            android:minHeight="200dp"
+                            android:minWidth="200dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="Small Text"
+                            android:id="@+id/numberofshows"
+                            android:layout_marginLeft="20dp"
+                            android:layout_gravity="bottom" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ToggleButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New ToggleButton"
+                            android:id="@+id/toggleButton5"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:minHeight="200dp"
+                            android:minWidth="200dp" />
+
+                        <ToggleButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New ToggleButton"
+                            android:id="@+id/toggleButton6"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:minHeight="200dp"
+                            android:minWidth="200dp" />
+
+                        <ToggleButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New ToggleButton"
+                            android:id="@+id/toggleButton7"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:minHeight="200dp"
+                            android:minWidth="200dp" />
+
+                        <ToggleButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New ToggleButton"
+                            android:id="@+id/toggleButton8"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:minHeight="200dp"
+                            android:minWidth="200dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"></LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- Side navigation drawer UI -->
+    <ListView
+        android:id="@+id/navList"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|start"
+        android:background="#ffeeeeee"/>
+
+
+</android.support.v4.widget.DrawerLayout>

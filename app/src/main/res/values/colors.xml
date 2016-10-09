@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#AB9C73</color>
+    <color name="colorPrimary">#D50000</color>
+    <color name="colorAccent">#FFAB00</color>
+    <color name="card_shadow">#8c666666</color>
+    <color name="color_text">#FFFF</color>
+    <color name="color_loginbg">#603913</color>
+
+
+
+    <color name="bg_login">#808080</color>
+    <color name="bg_register">#808080</color>
+    <color name="bg_main">#808080</color>
+    <color name="blue">#3366FF</color>
+    <color name="input_login">#FFFF</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#FFFF</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#3366FF</color>
+    <color name="btn_login_bg">#FFFF66</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#FFFF66</color>
+</resources>

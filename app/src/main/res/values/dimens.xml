@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="navigation_drawer_width">240dp</dimen>
+
+
+    <!-- These are dimens from the meetup project. -->
+    <dimen name="vertical_gully">16dp</dimen>
+    <dimen name="horizontal_inner_gully">12dp</dimen>
+    <dimen name="horizontal_gully">12dp</dimen>
+    <dimen name="vertical_gully_small">12dp</dimen>
+    <dimen name="horizontal_gully_small">12dp</dimen>
+    <dimen name="horizontal_screen_edge">8dp</dimen>
+    <dimen name="vertical_screen_edge">8dp</dimen>
+
+
+</resources>
